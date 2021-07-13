@@ -1,6 +1,6 @@
 {
   "name": "PI CEC",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "pi_cec",
   "description": "Raspberry Pi HTTP CEC server",
   "url": "https://github.com/samueltardieu/homeassistant-addon-pi-cec",
@@ -10,7 +10,7 @@
   "watchdog": "tcp://[HOST]:[PORT:9526]",
   "options": {},
   "schema": {},
-  "homeassistant": "2017.7.0",
+  "homeassistant": "2021.7.0",
   "ports": {
     "9526/tcp": null
   },
