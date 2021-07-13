@@ -1,6 +1,6 @@
 # Raspberry Pi CEC server add-on
 
-Starting from [HomeAssistant](https://www.home-assistant.io) 2017.7.0, the CEC
+Starting from [HomeAssistant](https://www.home-assistant.io) 2021.7.0, the CEC
 libraries included in HomeAssistant do no longer support CEC interfaces that are
 not included in the Linux kernel itself. Therefore, it is no longer possible to
 control the HDMI-CEC bus through the [hdmi-cec](https://www.home-assistant.io/integrations/hdmi_cec/) integration alone.
