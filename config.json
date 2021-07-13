@@ -1,6 +1,6 @@
 {
   "name": "PI CEC",
-  "version": "0.1",
+  "version": "0.2",
   "slug": "pi_cec",
   "description": "Raspberry Pi HTTP CEC server",
   "url": "https://github.com/samueltardieu/homeassistant-addon-pi-cec",
