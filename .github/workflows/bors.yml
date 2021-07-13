@@ -1,0 +1,20 @@
+name: Bors merge tests
+
+on:
+  push:
+    branches: [staging, trying]
+
+jobs:
+  on-push:
+    name: Build docker images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build docker images
+        uses: home-assistant/builder@master
+        with:
+          args: |
+            --test \
+            --armhf --armv7 \
+            --target /data \

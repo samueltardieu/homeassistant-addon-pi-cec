@@ -1,0 +1,2 @@
+status = [ "Build docker images" ]
+delete_merged_branches = true
