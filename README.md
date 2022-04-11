@@ -29,3 +29,8 @@ of the string `https://github.com/samueltardieu/homeassistant-addons` and is com
 from the repository name by HomeAssistant.
 
 The icon is part of [iconscount display icon](https://iconscout.com/icon/display-171) collection.
+
+## RPI GPU Memory
+
+The libraries that pycec uses require there be 128M of memory allocatd to the GPU - if you see any
+strange assertions in the logs, use `raspi-config` to change that value.
