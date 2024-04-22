@@ -35,5 +35,5 @@ The icon is part of [iconscount display icon](https://iconscout.com/icon/display
 
 ## RPI GPU Memory
 
-The libraries that pycec uses require there be 128M of memory allocatd to the GPU - if you see any
-strange assertions in the logs, use `raspi-config` to change that value.
+The libraries that pycec uses require there be 128M of memory allocated to the GPU.
+If you see any strange assertions in the logs, use `raspi-config` to change that value.
