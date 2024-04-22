@@ -11,6 +11,9 @@ Raspberry Pi hardware interface.
 
 ## Configuration
 
+First, enable the `https://github.com/samueltardieu/homeassistant-addons` repository in
+the "Addons" configuration section of Home Assistant.
+
 After enabling this add-on and configuring it
 to automatically start, one can use the following in HomeAssistant `configuration.yaml`:
 
